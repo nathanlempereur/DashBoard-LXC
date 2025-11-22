@@ -123,7 +123,7 @@ function stopContainer($container) {
 // Fonction pour démarrer tous les conteneurs via un service
 function startAllContainers() {
     exec("sudo systemctl start lxcStart.service");
-
+}
 // Fonction pour arrêter tous les conteneurs
 function stopAllContainers() {
     exec("sudo systemctl start lxcStop.service");
@@ -178,7 +178,7 @@ if (isset($_POST['stop_all'])) {
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard Minetest LXC</title>
+    <title>Dashboard LXC</title>
     <meta http-equiv="refresh" content="30">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -220,7 +220,7 @@ if (isset($_POST['stop_all'])) {
 <body>
 	<!-- Header de la page -->
     <header>
-        <h1>🐧 Dashboard Minetest LXC</h1>
+        <h1>🐧 Dashboard LXC</h1>
         <a href="?logout" class="logout">Déconnexion</a>
     </header>
 
