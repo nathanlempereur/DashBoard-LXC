@@ -237,7 +237,7 @@ if (isset($_POST['stop_all'])) {
                 <div class="info-value"><?= htmlspecialchars($system_info2['load']) ?></div>
             </div>
             <div class="info-card">
-                <div class="info-label">Mémoire use</div>
+                <div class="info-label">RAM use</div>
                 <div class="info-value"><?= htmlspecialchars($system_info3['memory']) ?></div>
             </div>
         </div>
