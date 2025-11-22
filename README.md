@@ -5,7 +5,7 @@ Ce dépôt contient un dashboard web interactif pour gérer vos conteneurs LXC v
 
 ---
 
-## 🎨 Installation du Dashboard
+## Installation du Dashboard
 
 ### 1. Installation d'Apache et PHP
 Sur votre serveur principal, installez les dépendances nécessaires :
@@ -63,7 +63,7 @@ $containers = [
 
 ---
 
-## 🔒 Configuration des permissions sudo
+## Configuration des permissions sudo
 
 L'utilisateur `www-data` doit pouvoir exécuter les commandes LXC sans mot de passe :
 
@@ -83,7 +83,7 @@ www-data ALL=(ALL) NOPASSWD: /bin/systemctl start lxcStop.service
 
 ---
 
-## 🔧 Installation des Scripts (optionnel)
+## Installation des Scripts (optionnel)
 
 Pour utiliser les fonctions de démarrage/arrêt global :
 
@@ -100,7 +100,7 @@ Pour utiliser les fonctions de démarrage/arrêt global :
 
 ---
 
-## ℹ️ Informations importantes
+## Informations importantes
 
 Ce dashboard est pleinement compatible avec les distributions disposant de :
 - LXC (Linux Containers)
@@ -111,7 +111,7 @@ Le dashboard s'actualise automatiquement toutes les **30 secondes**.
 
 ---
 
-## 🤝 Contribution
+## Contribution
 
 Les contributions sont les bienvenues ! Vous pouvez :
 - **Modifier** et **améliorer** le code
@@ -125,7 +125,7 @@ Les contributions sont les bienvenues ! Vous pouvez :
 
 ---
 
-## 📄 Licence
+## Licence
 
 Ce projet est sous **licence libre**.  
 Vous êtes libre de l'utiliser, le modifier et le redistribuer selon vos besoins.
