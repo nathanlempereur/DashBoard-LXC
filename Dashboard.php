@@ -98,7 +98,7 @@ function getSystemInfoLoad() {
  * @return array Informations sur l'utilisation de la mémoire
  */
 function getSystemInfoMemory() {
-    exec("free -h | awk '{print $2}' | head -n 2 | tail -n 1", $output);
+    exec("free -h | awk '{print $3}' | head -n 2 | tail -n 1", $output);
     $info3['memory'] = $output[0] ?? 'N/A';
     return $info3;
 }
