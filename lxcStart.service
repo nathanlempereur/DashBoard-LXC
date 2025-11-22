@@ -1,0 +1,13 @@
+[Unit]
+Description=Stop des conteneurs
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/lxcStart.sh
+#User=www-data
+#Group=www-data
+RemainAfterExit=no
+
+[Install]
+WantedBy=multi-user.target
