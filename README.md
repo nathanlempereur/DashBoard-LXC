@@ -1,6 +1,6 @@
 # Dashboard LXC
 
-## 📋 Présentation
+## Présentation
 Ce dépôt contient un dashboard web interactif pour gérer vos conteneurs LXC via une interface moderne et intuitive.
 
 ---
