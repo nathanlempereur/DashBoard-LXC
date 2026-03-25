@@ -254,7 +254,7 @@ function getSystemInfoDisk() {
 }
 
 /**
- * Retourne les IPs bannies depuis votre fichier IPSet.
+ * Retourne les IPs bannies depuis votre fichier des ip banies.
  * Adaptez le chemin selon votre configuration.
  */
 function getGenInfoBanIP() {
