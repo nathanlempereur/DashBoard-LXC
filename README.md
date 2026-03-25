@@ -1,5 +1,9 @@
 # Dashboard LXC
 
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![Status](https://img.shields.io/badge/status-Libre-orange)
+
+
 ## Présentation
 Ce dépôt contient un dashboard web interactif pour gérer vos conteneurs LXC via une interface moderne et intuitive.
 
